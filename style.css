@@ -1,0 +1,979 @@
+:root{
+    --coffee:#a9702a;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+html{
+    font-size: 80%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    
+}
+
+
+
+
+    header{
+        height: 10%;
+        position: fixed;
+        top:0; left:0; right:0;
+        width: 100%;
+        padding: 2rem 9%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        background-color: black;
+    }
+
+
+
+
+
+    .logo{
+        width: 4vw;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+
+        border: 0.2rem;
+        border-radius: 100%;
+        border-style: double;
+        border-color: white;
+        filter: saturate(150%);
+    }
+    .navbar a{
+        font-size: 1.2rem;
+        padding: 0 1.5rem;
+        color: white;
+        font-weight: bold;
+        transform: 2s;
+    }
+    .navbar a:hover{
+        color: var(--coffee);
+        border-bottom:double;  
+        
+    }
+    .icons a{
+        font-size: 1.2rem;
+        padding: 0 1.2rem;
+        color: white;
+        transform: 2s;
+        z-index: -1;
+    }
+
+    .icons a:hover{
+        color: var(--coffee);
+        border-bottom:double; 
+       
+    
+    }
+
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+    /* home-section-start */
+
+    .home{
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background: url(free\ 3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .content{
+        max-width: 40rem;
+        color: white;
+        padding-top: 5rem;
+        padding-left: 2rem;
+        
+        
+
+    }
+    h1{
+        font-size: 6rem;
+        line-height: 0.9;
+       
+    }
+    span{
+        font-size: 6.6rem;
+        color: var(--coffee);
+        
+    }
+
+    .mini-head{
+        font-size: 2rem;
+        color:var(--coffee);
+        font-weight: bold;
+        line-height: 1.5;
+        
+    }
+
+   .home-para{
+        font-size: 1rem;
+        padding: 0.5rem;
+        color:white;
+        line-height: 1;
+    }
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: var(--coffee);
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    transition: 2s;
+    
+}
+.btn:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+    /* home-section-start */
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+    
+
+     /* speciality-section-start */
+
+.our-speciality{
+    margin-top: 7rem;
+}
+     .speciality-heading{
+       
+       display: flex;
+       justify-content: center;
+       background-color: black;
+       color: white;
+       padding: 1rem;
+       gap: 1.5rem;
+       font-size: 5rem;
+       margin-top: 3rem;
+     }
+     .ab{
+       color: var(--coffee);
+       font-size: 5rem;
+       
+     }
+   
+     .row{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+        margin-top: 2rem;
+     }
+
+    .video-container{
+        flex: 1 1 40rem;
+        position: relative;
+
+     }
+ .coffee-video{
+    width: 100%;
+margin-left:2rem ;
+    border: 0.1rem solid black;
+    border-radius: 3rem;
+    height: 100%;
+    object-fit: cover;
+    
+}
+ .speciality-content{
+    flex: 1 1 40rem;
+    
+   
+}
+h2{
+    font-size: 2.2rem;
+border: 0.5rem groove var(--coffee);
+color: var(--coffee);
+background-color: black;
+border-radius: 1.8rem;
+width: 90%;
+padding: 0.8rem;
+margin-left: 1.5rem;
+
+}
+.speciality-para{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    
+    
+}
+
+.speciality-btn{
+    display: inline-block;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    margin-left: 2rem;
+    background-color: var(--coffee);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.8rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: 2s;
+    
+}
+.speciality-btn:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* products -section-start */
+
+
+
+.product-heading{
+
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 5rem;
+    margin-top: 3rem;
+  }
+  .ab{
+    color: var(--coffee);
+    font-size: 5rem;
+    
+  }
+.product-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin-top: 3rem;
+}
+
+    
+.product-box{
+    width:330px;
+    height: 400px;
+    background: linear-gradient(black,#a9702a,black);
+    color:white;
+    border: 0.2rem double white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    cursor: pointer;
+    
+    
+}
+
+
+.product-img{
+    width: 200px;
+    height: 200px;
+   margin-left: 2rem;
+   cursor: pointer;
+   transition: 3s;
+}
+.product-img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+
+.product-content{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+    
+
+
+.product-name{
+    font-size: 1.9rem;
+    line-height: 5rem;
+}
+
+.product-para{
+    font-size: 0.8rem;
+    
+}
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.story-heading{
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 5rem;
+    margin-top: 3rem;
+  }
+  .ab{
+    color: var(--coffee);
+    font-size: 5rem;
+    
+  }
+.story{
+    height:70vh;
+    width: 100%;
+    background-image: url(pic\ 5.jpg);
+    filter: opacity(90%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ 
+    
+}
+.story-text .text{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+  position: absolute;
+  top: 8rem;
+    filter: opacity(200%);
+}
+.story-row{
+    
+  display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+        margin-top: 2rem;
+   
+}
+.story-pic{
+    width: 50%;
+    height: 100vh;
+   padding: 1rem;
+   border: 0.1rem solid white;
+   border-radius: 0.3rem;
+}
+
+.story-content{
+    flex: 1 1 40rem;
+   
+
+   
+}
+
+
+.story-para{
+  font-size: 1rem;
+  max-width: 100%;
+  width: 100%;
+  padding: 1rem;
+  
+  height: auto;
+  background-image:radial-gradient(circle at 25% ,rgb(17, 16, 16) 15%, rgb(133, 126, 126) 50%,rgb(17, 16, 16) 40%) ;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.coffee-brewing-method{
+    padding: 2rem;
+  
+   font-size: 1rem;
+   font-style: italic;
+   font-weight: bold;
+ 
+  
+}
+.content-heading{
+    font-size: 4rem;
+    background-color: black;
+    color: var(--coffee);
+    text-align: center;
+}
+.abcd{
+  color: white;
+    font-size: 4rem;
+}
+.method-img{
+    width:40vw;
+    height:50vh;
+  
+   margin-left: 20rem;
+   border-radius: 0.5rem;
+  
+   
+   
+}
+
+
+.options-how{
+    font-size: 2rem;
+    background-color: var(--coffee);
+    color: black;
+    width: fit-content;
+    border: 0.3rem double white;
+    border-radius: 0.3rem;
+
+
+    
+}
+.options{
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border: 0.3rem double var(--coffee);
+    border-radius: 0.3rem;
+}
+
+
+
+.happy-brew{
+    font-size: 3rem;
+   background-color: black;
+   color: white;
+   border-radius: 0.5rem;
+   width: fit-content;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */ */
+
+
+     /* menu-section-start */
+.menu-page{
+    margin-top: 2rem;
+}
+ 
+     .menu-heading{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        gap: 1.5rem;
+        font-size: 5rem;
+        margin-top: 7rem;
+      }
+      .ab{
+        color: var(--coffee);
+        font-size: 5rem;
+        
+      }
+     
+      
+     .main-row{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 3rem;
+        margin-top: 1rem;
+     }
+
+     
+     
+   .box{
+    color: white;
+    background-color: black;
+    border: 0.3rem double var(--coffee);
+    border-radius: 0.5rem;
+    width: 210px;
+    height:350px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 2s;
+    
+}
+
+.box:hover{
+    background-color: var(--coffee);
+    transform: scale(1.1);
+    z-index: 1;
+    color: black;
+ }
+   
+
+
+.menu-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 120%;
+    margin-left: 3.3rem;
+    margin-top: 1rem;
+   border: 0.1rem solid black;
+}
+
+
+
+h3{
+    
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+ 
+ 
+}
+
+.description{
+    margin: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.3rem;
+   
+   
+}
+.price{
+   margin: 1rem;
+    font-size: 1.5rem;
+    display: inline;
+   
+}
+
+.menu-btn{
+    width: 50%;
+    height:5%;
+    padding: 0.5rem 0.5rem;
+    border: 0.2rem double white;
+    border-radius: 0.3rem;
+    text-transform: capitalize;
+    margin-left:3.6rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    transition: 1s;
+    background-color: #a9702a;
+    color: white;
+    
+
+}
+
+.menu-btn:hover{
+    background-color: transparent;
+   
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+ 
+.review-heading{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 5rem;
+    margin-top: 7rem;
+  }
+  .ab{
+    color: var(--coffee);
+    font-size: 5rem;
+    
+  }
+ .review-container{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+ }
+
+.review-box{
+width: 400px;
+border: 0.2rem double white;
+border-radius: 1rem;
+padding: 2rem;
+background: linear-gradient(rgb(0, 0, 0) , #a9702a ,rgb(30, 30, 30) );
+transition: 1s linear;
+cursor: pointer;
+}
+.review-box:hover{
+   
+    background-image:radial-gradient(circle at 25% ,#fffdd0 10%, #a9702a 50%,#ceb990 40%) ;
+    
+    transform: scale(1.1);
+}
+
+
+.image-container{
+    width: 100%;
+}
+.profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 120px;
+ }
+
+
+
+
+
+.review-content{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+   
+    position: relative;
+}
+
+.name{
+    font-size: 2rem;
+    position: absolute;
+    bottom: 7rem; left: 6.5rem;
+    line-height: 1rem;
+    
+    
+
+}
+
+
+.short-line{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 5rem; left: 6rem;
+    
+}
+.review-para{
+    font-size: 0.8rem;
+    text-align: center;
+   line-height: 1rem;
+   
+}
+.star{
+    font-size: 0.8rem;
+    color: gold;
+    display: inline;
+   
+}
+.rating{
+    margin-left: 6rem;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ */
+
+
+
+ .contect-heading{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 5rem;
+    margin-top: 7rem;
+  }
+  .ab{
+    color: var(--coffee);
+    font-size: 5rem;
+    
+  }
+
+
+  .contect-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+margin-top: 2rem;
+  }
+.contect-row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    border: 0.1rem double white;
+    background-image:radial-gradient(circle at 25% ,rgb(17, 16, 16) 15%, rgb(133, 126, 126) 50%,rgb(17, 16, 16) 40%) ;
+    border-radius: 0.3rem;
+   color: white;
+   max-width: 100%;
+   height: auto;
+}
+
+ .contect-img{
+    flex: 1 1 40rem;
+    width: 100%;
+    height: 100vh;
+    padding: 0.5rem;
+
+}
+
+.contect-box{
+    padding: 1rem;
+    font-size: 1.2rem;
+  width: 70%;
+    color: #333;
+    border: 0.1rem double black;
+    border-radius: 0.1rem;
+    margin: 0.5rem 0;
+    margin-left: 1rem;
+}
+
+
+ .mini-con{
+    font-size: 2rem;
+    background: linear-gradient(rgb(0, 0, 0) , #a9702a ,rgb(30, 30, 30) );
+    color: white;
+
+
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* footer-section-start */
+
+.footer{
+    margin: 2rem 2rem;
+    background-image: url(picccccccccccc.jpg);
+    min-height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer-box{
+    flex: 1 1 25rem;
+
+}
+
+.links{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.7rem 0;
+}
+
+.footer-box a{
+    display: block;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin-left:2rem ;
+
+
+}
+.footer-img{
+    width:30;
+    height: 30px;
+    margin-left: 2rem;
+}
+.credit-name{
+    margin-left: 25rem;
+  
+    padding: 0.2rem;
+}
+.credit{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+   
+
+}
+.shah{
+    color: var(--coffee);
+    font-size: 2.5rem;
+   
+}
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+@media (max-width:900px) {
+
+
+
+    html{
+        font-size: 80%;
+        scroll-behavior: smooth;
+        scroll-padding-top: 6rem;
+        
+    }
+
+    .coffee-video{
+        width: 88%;
+        margin-left: 2.6rem;
+    }
+
+    .review-container{
+        display: flex;
+        justify-content:center;
+        margin: 2rem;
+        gap: 3rem;
+        flex-wrap: wrap;
+        padding: 1rem;
+     }
+    
+
+
+}
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width:700px) {
+
+
+
+
+
+
+    html{
+        font-size: 70%;
+        scroll-behavior: smooth;
+        scroll-padding-top: 3rem;
+        
+    }
+   
+
+.logo{
+    width: 30px;
+
+}
+
+
+.coffee-video{
+    width: 88%;
+    margin-left: 2.6rem;
+}
+
+.story-text .text{
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.story-pic{
+    width: 100%;
+    height: 70vh;
+    
+}
+
+
+.story-para{
+    padding: 2rem;
+}
+
+.method-img{
+    margin-left: 4rem;
+    width: 80%;
+}
+
+.review-heading{
+   
+    font-size: 4rem;
+   
+  }
+  .ab{
+    
+    font-size: 4rem;
+    
+  }
+
+
+
+
+  .review-container{
+    display: flex;
+    justify-content:center;
+    margin: 2rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+ }
+
+  .name{
+    position: absolute;
+    bottom: 9rem; left: 7rem;
+    
+    
+    
+
+}
+
+
+.short-line{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 7rem; left: 7rem;
+    
+}
+
+
+.review-box{
+    width: 320px;
+    
+    }
+    .review-box:hover{
+       
+        background-image:radial-gradient(circle at 25% ,#fffdd0 10%, #a9702a 50%,#ceb990 40%) ;
+        
+    
+    }
+.contect-img{
+    width: 100%;
+    height: 70vh;
+}
+
+
+.credit{
+    margin-left: -19rem;
+}
+ 
+}
+
+
+
+
+
+
+
